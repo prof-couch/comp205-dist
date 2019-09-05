@@ -1,0 +1,16 @@
+{
+  "name": "01-04 Notebook as a file",
+  "endpoint": "cal/COMP205/fa19/01_04_notebook_as_a_file",
+  "src": [
+    "01-04-notebook-as-a-file.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading", 
+      "scoring", 
+      "backup"
+  ]
+}
