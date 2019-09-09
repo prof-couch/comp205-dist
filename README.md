@@ -15,3 +15,4 @@ credit: Martin Magdinier, University of Texas.
 ## History
 * Original Jupyter Notebooks for the course in Summer 2019, by Prof. Alva Couch.
 * Adapted for Fall 2019 by Jitendra Singh.
+* Last updated 9/9/19
