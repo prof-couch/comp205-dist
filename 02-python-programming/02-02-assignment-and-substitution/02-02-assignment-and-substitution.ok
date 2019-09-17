@@ -1,6 +1,6 @@
 {
   "name": "02-01 Assignment and Substitution",
-  "endpoint": "cal/COMP205/fa19/02-02-assignment-and-substitution",
+  "endpoint": "cal/COMP205/fa19/02_02_assignment_and_substitution",
   "src": [
     "02-02-assignment-and-substitution.ipynb"
   ],
