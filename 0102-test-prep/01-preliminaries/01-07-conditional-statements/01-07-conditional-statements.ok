@@ -1,0 +1,16 @@
+{
+  "name": "01-07 Conditional statements",
+  "endpoint": "cal/COMP205/fa19/01_07_conditionals",
+  "src": [
+    "Conditional statements.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading", 
+      "scoring", 
+      "backup"
+  ]
+}
