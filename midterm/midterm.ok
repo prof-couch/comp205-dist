@@ -2,7 +2,7 @@
   "name": "midterm",
   "endpoint": "cal/COMP205/fa19/midterm.ok",
   "src": [
-    "midterm.ipynb"
+    "decipher_midterm.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
