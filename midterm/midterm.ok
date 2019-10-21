@@ -1,0 +1,16 @@
+{
+  "name": "midterm",
+  "endpoint": "cal/COMP205/fa19/midterm.ok",
+  "src": [
+    "midterm.ipynb"
+  ],
+  "tests": {
+      "tests/q*.py": "ok_test"
+  },
+  "protocols": [
+      "file_contents",
+      "grading", 
+      "scoring", 
+      "backup"
+  ]
+}
