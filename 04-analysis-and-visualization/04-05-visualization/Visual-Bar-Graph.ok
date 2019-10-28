@@ -1,0 +1,16 @@
+{
+  "name": "Visual Bar Graph",
+  "endpoint": "cal/COMP205/fa19/bargraph",
+  "src": [
+    "Visual Bar Graph.ipynb"
+  ],
+  "tests": {
+    "tests/q*.py": "ok_test"
+  }, 
+  "protocols": [
+      "file_contents",
+      "grading", 
+      "scoring", 
+      "backup"
+  ]
+}
