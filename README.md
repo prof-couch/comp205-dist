@@ -7,7 +7,7 @@
     - Email: Jitendra [dot] Singh [at] tufts [dot] edu
     - Phone: +1 (617) 444-9640
 * **TA** Amanda N. Rodriguez
-    - Email: arodri12 [at] tufts [dot] edu]
+    - Email: arodri12 [at] tufts [dot] edu
 * **Textbooks** While there is no assigned textbook, if you are new to Python, there are many appropriate introductions to the language, including print books and online tutorials. For the later parts of the course, we will use [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do) by Jake VanderPlas &copy; 2017, O'Reilly Media.
 * **Prerequisites**
     - Two semesters of college mathematics (e.g., Calculus 1 and 2).
@@ -57,5 +57,5 @@ credit: Martin Magdinier, University of Texas.
 
 ## History
 * Original Jupyter Notebooks for the course in Summer 2019, by Prof. Alva Couch.
-* Adapted for Fall 2019 by Jitendra Singh.
-* Last updated 9/9/19
+* Adapted for Fall 2019 by Jitendra Singh and first published 9/9/2019
+* Last updated 10/28/2019
