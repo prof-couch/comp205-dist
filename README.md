@@ -4,10 +4,10 @@
 ## Course at a glance
 
 * **Instructor** Jitendra Singh
-    - Email: [Jitendra.Singh@tufts.edu](Jitendra.Singh@tufts.edu)
+    - Email: Jitendra [dot] Singh [at] tufts [dot] edu
     - Phone: +1 (617) 444-9640
 * **TA** Amanda N. Rodriguez
-    - Email: [arodri12@tufts.edu](arodri12@tufts.edu)
+    - Email: arodri12 [at] tufts [dot] edu]
 * **Textbooks** While there is no assigned textbook, if you are new to Python, there are many appropriate introductions to the language, including print books and online tutorials. For the later parts of the course, we will use [Python Data Science Handbook](http://shop.oreilly.com/product/0636920034919.do) by Jake VanderPlas &copy; 2017, O'Reilly Media.
 * **Prerequisites**
     - Two semesters of college mathematics (e.g., Calculus 1 and 2).
