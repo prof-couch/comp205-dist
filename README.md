@@ -33,17 +33,26 @@ The framework is based on Jupyter Notebooks. Jupyter can be run on any kind of c
 
 Using Jupyter Notebooks and Python 3, this course concentrates upon the programming tasks often required for phase 1, with examples of phases 2 and 3, which will be covered in more depth in later courses. Very often, significant programming is required in order to make data ready for analysis. We will cover several common programming tasks that one might need to complete during the data analysis lifecycle, mostly centered upon preparation of data collected and published by others, with the intent of running data analysis functions written by yet another group of people. Differences in how people approach data collection and analysis make this kind of programming a common need in data science.
 
-| Wk  |  M  |  W   | Topic  | Notebooks |
+|  Wk   |  M    |  W     | Topic   | Notebooks |
 | :---: | :---: | :----: | :------ | :----- |
-|  8  |  10/22  | 24  | **Numpy:** Reading into multi-dimensional arrays, **Pandas:** Dataframes and reading into them  | 03-03, 03-04 |
-|  9  |  29  | 31  | **Pandas:** Merging and matching Dataframes, Series and Views| 03-05, 03-06, 04-01 |
-|  10 |  11/4   | 6   | Classification and Clustering | 04-02, 04-03 |
-|  11 |  11  | 13  | **Case Study:** [World Happiness Report](https://worldhappiness.report/ed/2019/)  | 04-04, 05-01 |
-|  12 |  18  | 20  | **Matplotlib**  | 04-06, 04-07 |
-|  13 |  25   | &mdash;  | **Case Study:** World Happiness Map | 05-03 |
+|  1    | &mdash; | 9/4  |         |        |
+|  2    |  9    |   11   |         |        |
+|  3    | 16    | 18     |         |        |
+|  4    | 23    | 25     |         |        |
+|  5    | 30    | 10/2   |         |        |
+|  6    |  7    | 9      |         |        |
+|  7    | 14    |  16    |         |        |
+|  8  |  10/21  | 23  | **Numpy:** Data Abstraction, **Numpy:** Multi-dimensional arrays,  | Midterm, 03-01, 03-02 |
+|  9  |  28  | 30  | **Numpy:** Reading into multi-dimensional arrays, **Pandas:** Dataframes and reading into them;  Merging and matching Dataframes| 03-03, 03-04, 03-05 |
+|  10  |  11/4  | 6  | **Pandas:** , Series and Views; Wrap Up Unit 3| 03-06, 03-07 |
+|  11 |  11  | 13   | Classification and Clustering, **Case Study:** Iris Data Set | 04-02, 04-03  |
+|   |    |    | Notebooks under development&dagger;  | <del>04-04, 04-06, 04-07</del>  |
+|  12 |  18  | 20  | **Case Study:** [World Happiness Report](https://worldhappiness.report/ed/2019/)  | 04-04, 05-01 |
+|  13 |  25   | &mdash;  | [Geopandas](http://geopandas.org/), **Case Study:** World Happiness Map | 05-03 |
 |  14 |  12/2 | 4 |  **Case Study:** Twitter Sentiment Analysis | 05-04 |
 |  16 |  | 12/13 | **(Take Home) Final Exam**  |
 
+&dagger; We will not be covering these notebooks this semester. Feel free to peruse them if interested.
 
 
 COMP-205 loosely follows the Data Processing Pipeline.
