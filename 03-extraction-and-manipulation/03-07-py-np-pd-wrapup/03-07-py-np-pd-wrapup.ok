@@ -1,8 +1,8 @@
 {
   "name": "Applying python",
-  "endpoint": "cal/COMP205/su19/applyingpython",
+  "endpoint": "cal/COMP205/su19/03-07-py-np-pd-wrapup",
   "src": [
-    "Applying python.ipynb"
+    "03-07-py-np-pd-wrapup.ipynb"
   ],
   "tests": {
       "tests/q*.py": "ok_test"
