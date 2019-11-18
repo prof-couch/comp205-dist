@@ -5,27 +5,37 @@
 
 
 test = {
-  'name': 'Question 2',
+  'name': 'Question 4',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> type(fig._data_objs[0])
-          <class 'plotly.graph_objs.Bar'>
+          >>> type(joined_fruit)
+          <class 'pandas.core.frame.DataFrame'>
           """,
           'hidden': False,
           'locked': False
         },
-        {
+          {
           'code': r"""
-          >>> ('(1,1)') in (fig._grid_str)
+          >>> joined_fruit.size
+          400
+          """,
+          'hidden': False,
+          'locked': False
+        },
+          {
+          'code': r"""
+          >>> 'bmu' in joined_fruit.columns
           True
           """,
           'hidden': False,
           'locked': False
-        }
+        },
+          
+          
       ],
       'scored': True,
       'setup': '',

@@ -5,22 +5,22 @@
 
 
 test = {
-  'name': 'Question 2',
+  'name': 'Question 5',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> type(fig._data_objs[0])
-          <class 'plotly.graph_objs.Bar'>
+          >>> "'coloraxis': 'coloraxis'" in str(ir._data_objs)
+          True
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> ('(1,1)') in (fig._grid_str)
+          >>> "'hovertemplate': 'sepal_width=%{x}<br>sepal_length=%{marker.color}'" in str(ir._data_objs)
           True
           """,
           'hidden': False,

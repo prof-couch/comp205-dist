@@ -12,16 +12,16 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> type(fig._data_objs[0])
-          <class 'plotly.graph_objs.Bar'>
+          >>> 'Mike' in friend_recommendation(1)
+          True
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> ('(1,1)') in (fig._grid_str)
-          True
+          >>> type(friend_recommendation(1))
+          <class 'str'>
           """,
           'hidden': False,
           'locked': False

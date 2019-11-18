@@ -12,8 +12,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> f._frames_validator 
-          <plotly.validators.FramesValidator at 0x22d23a95a58>
+          >>> "<plotly.validators.FramesValidator object" in str(f._frames_validator) 
+          True
           """,
           'hidden': False,
           'locked': False

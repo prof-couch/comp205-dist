@@ -13,7 +13,7 @@ test = {
         {
           'code': r"""
           >>> type(fig._data_objs[0])
-          <class 'plotly.graph_objs.Bar'>
+          plotly.graph_objs.Bar
           """,
           'hidden': False,
           'locked': False
@@ -25,6 +25,14 @@ test = {
           """,
           'hidden': False,
           'locked': False
+        },
+        {
+            'code':r"""
+            >>>"Cameron" in str(fig._data_objs)
+            True
+            """,
+            'hidden': False,
+            'locked': False
         }
       ],
       'scored': True,

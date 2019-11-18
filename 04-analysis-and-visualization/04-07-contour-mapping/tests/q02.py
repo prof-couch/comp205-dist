@@ -12,15 +12,23 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> type(fig._data_objs[0])
-          <class 'plotly.graph_objs.Bar'>
+          >>> type(our_vars)
+          list
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> ('(1,1)') in (fig._grid_str)
+          >>> ("UNIX TIME") in str(our_vars)
+          True
+          """,
+          'hidden': False,
+          'locked': False
+        },
+          {
+          'code': r"""
+          >>> ("ALT") in str(our_vars)
           True
           """,
           'hidden': False,

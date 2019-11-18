@@ -25,15 +25,7 @@ test = {
           """,
           'hidden': False,
           'locked': False
-        },
-          {
-              'code': r"""
-              >>>"'textfont': {'size': 18}" in str(pi._data)
-              True
-              """,
-              'hidden': False,
-              'locked': False
-          }
+        }
       ],
       'scored': True,
       'setup': '',

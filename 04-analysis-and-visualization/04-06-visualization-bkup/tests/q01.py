@@ -1,27 +1,19 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
+# In[1]:
 
 
 test = {
-  'name': 'Question 2',
+  'name': 'Question 1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> type(fig._data_objs[0])
-          <class 'plotly.graph_objs.Bar'>
-          """,
-          'hidden': False,
-          'locked': False
-        },
-        {
-          'code': r"""
-          >>> ('(1,1)') in (fig._grid_str)
-          True
+          >>> len(daf)
+          30
           """,
           'hidden': False,
           'locked': False
@@ -34,4 +26,10 @@ test = {
     }
   ]
 }
+
+
+# In[ ]:
+
+
+
 

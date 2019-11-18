@@ -5,22 +5,30 @@
 
 
 test = {
-  'name': 'Question 2',
+  'name': 'Question 4',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> type(fig._data_objs[0])
-          <class 'plotly.graph_objs.Bar'>
+          >>> len(a)
+          558
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> ('(1,1)') in (fig._grid_str)
+          >>> type(b)
+          pandas.core.series.Series
+          """,
+          'hidden': False,
+          'locked': False
+        },
+          {
+          'code': r"""
+          >>> c[0] > 809.7
           True
           """,
           'hidden': False,

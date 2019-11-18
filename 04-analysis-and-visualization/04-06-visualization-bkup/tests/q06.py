@@ -5,22 +5,22 @@
 
 
 test = {
-  'name': 'Question 2',
+  'name': 'Question 6',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> type(fig._data_objs[0])
-          <class 'plotly.graph_objs.Bar'>
+          >>> "'title': {'text': 'Seapl width vs. length'}" in str(ir._layout_obj)
+          True
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> ('(1,1)') in (fig._grid_str)
+          >>> "6.9, 5.5, 6.5, 5.7, 6.3, 4.9, 6.6, 5.2, 5. , 5.9" in str(ir._data)
           True
           """,
           'hidden': False,

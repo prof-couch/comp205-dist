@@ -13,7 +13,7 @@ test = {
         {
           'code': r"""
           >>> type(pi)
-          plotly.graph_objs._figure.Figure
+          <class 'plotly.graph_objs._figure.Figure'>
           """,
           'hidden': False,
           'locked': False

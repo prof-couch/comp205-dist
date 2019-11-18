@@ -5,22 +5,22 @@
 
 
 test = {
-  'name': 'Question 2',
+  'name': 'Question 3',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> type(fig._data_objs[0])
-          <class 'plotly.graph_objs.Bar'>
+          >>> type(pi)
+          plotly.graph_objs._figure.Figure
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> ('(1,1)') in (fig._grid_str)
+          >>> "['Red', 'Blue', 'Yellow', 'Purple', 'Green', 'White']" in str(pi._data_objs)
           True
           """,
           'hidden': False,

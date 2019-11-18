@@ -5,22 +5,22 @@
 
 
 test = {
-  'name': 'Question 2',
+  'name': 'Question 1',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> type(fig._data_objs[0])
-          <class 'plotly.graph_objs.Bar'>
+          >>> type(resp)
+          string
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> ('(1,1)') in (fig._grid_str)
+          >>> resp == "n"
           True
           """,
           'hidden': False,

@@ -5,27 +5,35 @@
 
 
 test = {
-  'name': 'Question 2',
+  'name': 'Question 4',
   'points': 1,
   'suites': [
     {
       'cases': [
         {
           'code': r"""
-          >>> type(fig._data_objs[0])
-          <class 'plotly.graph_objs.Bar'>
+          >>> "'width': 2" in str(pi._data)
+          True
           """,
           'hidden': False,
           'locked': False
         },
         {
           'code': r"""
-          >>> ('(1,1)') in (fig._grid_str)
+          >>> "'color': '#000000'" in str(pi._data)
           True
           """,
           'hidden': False,
           'locked': False
-        }
+        },
+          {
+              'code': r"""
+              >>>"'textfont': {'size': 18}" in str(pi._data)
+              True
+              """,
+              'hidden': False,
+              'locked': False
+          }
       ],
       'scored': True,
       'setup': '',
